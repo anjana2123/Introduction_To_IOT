@@ -1,42 +1,41 @@
-# Introduction to IoT - Temperature Prediction
+# Introduction to IoT Basics
 
-Welcome to the **Introduction_to_IoT** repository! This project delves into the fascinating world of the Internet of Things (IoT) by demonstrating a 
-practical application: the prediction of waterbody temperature using time series analysis. The project utilizes data from the Aquifer_Petrignano temperature 
-sensors to forecast future temperature trends in the monitored waterbody.
+Welcome to the **Introduction_to_IoT_Basics** repository! This repository serves as an introduction to fundamental concepts in the 
+Internet of Things (IoT). It encompasses two key tasks that explore different aspects of IoT applications.
 
-## About
+## Task 1: Temperature Prediction
 
-In the context of IoT, the project takes on the challenge of understanding and predicting environmental 
-changes. The Aquifer_Petrignano sensor data serves as a valuable dataset for exploring how temperature variations in a waterbody can be analyzed 
-over time. By leveraging time series analysis techniques, this project aims to provide a simple yet insightful demonstration of IoT applications 
-in environmental monitoring.
+In the first task, we delve into the practical application of time series analysis for temperature prediction in a waterbody. 
+The project utilizes data from the Aquifer_Petrignano temperature sensors to forecast future temperature trends. 
+This task aims to provide a hands-on understanding of how IoT can be employed for environmental monitoring.
 
-## Key Components
+### Key Components
 
-### 1. Data
+1. **Data**: Explore the Aquifer_Petrignano sensor data in the `data` directory, serving as the foundation for our temperature prediction analysis.
 
-Explore the Aquifer_Petrignano sensor data in the `data` directory. This dataset forms the foundation for our 
-temperature prediction analysis.
+2. **Notebooks**: The Jupyter notebook `Temperature_Prediction.ipynb` contains the code for the time series analysis and temperature prediction, offering a step-by-step guide to understanding the process.
 
-### 2. Notebooks
+## Task 2: IoT Protocols and Architectures for Wearable Devices
 
-The Jupyter notebook `Temperature_Prediction.ipynb` is the heart of this project. It contains the code 
-for the time series analysis and temperature prediction, offering a step-by-step guide to understanding the process.
+In the second task, we shift our focus to the theoretical side of IoT by exploring protocols and architectures 
+for wearable IoT devices. A paper, not yet published, has been prepared to delve into the intricacies of designing effective 
+communication protocols and architectures for wearable IoT devices.
+
+### Key Components
+
+1. **Paper**: The paper, available in the `writeup...` directory, covers the exploration of IoT protocols and architectures tailored specifically for wearable devices.
 
 ## Getting Started
 
-To delve into the project and run the analysis locally, follow these simple steps:
+To dive into these tasks and explore IoT basics, follow these simple steps:
 
-1. Clone this repository: `git clone https://github.com/anjana2123/Introduction_to_IoT.git`.
+1. Clone this repository: `git clone https://github.com/anjana2123/Introduction_To_IoT.git`.
 
-2. Open and run the Jupyter notebook `Temperature_Prediction.ipynb` to witness the analysis and predictions in action.
+2. For Task 1, open and run the Jupyter notebook `Temperature_Prediction.ipynb` to witness the analysis and predictions in action.
 
-## Usage
-
-This project serves as an accessible starting point for those curious about IoT applications. 
-The provided code and documentation are designed to be beginner-friendly, allowing you to gain insights into IoT and time series analysis.
+3. For Task 2, explore the paper in the `Writeup` directory for insights into IoT protocols and architectures for wearable devices.
 
 ## Acknowledgments
 
-Thank you for exploring this Introduction to IoT project. Let's embark on this journey of understanding and predicting environmental changes together. Happy coding!
-
+Thank you for exploring the Introduction to IoT Basics repository. Whether you are a beginner or an enthusiast, 
+I hope this repository provides valuable insights into the diverse aspects of IoT. Happy exploring!
